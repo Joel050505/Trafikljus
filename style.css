@@ -1,0 +1,42 @@
+* {
+  background-color: gray;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0px 40px 0px ;
+}
+.box1, .box2, .box3 {
+   height: 200px; width: 200px;
+  margin: 8px 3px 2px 3px;
+  outline: 10px solid black;
+  display: flex;
+}
+.box1 {
+  background-color: red;
+  border: 8px solid rgb(109, 7, 7);
+  flex-direction: column-reverse;
+}
+.box2 {
+  justify-content: end;
+  align-items: end;
+  background-color: yellow;
+  border: 8px solid gold;
+}
+.box3 {
+  background-color: green;
+  border: 8px solid darkgreen;
+  flex-direction: column;
+  justify-content: end;
+}
+.innerbox1 {
+  width: 100%;
+  height: 50%;
+  background-color: rgba(167, 167, 167, 0.5);
+}
+.innerbox2, .innerbox3 {
+  background-color: rgb(255, 255, 255, 0.5);
+  width: 50%;
+  height: 50%;
+}
